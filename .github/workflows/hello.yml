@@ -3,9 +3,11 @@ name: Hello Dosto
 
 # Trigger the workflow on push to main branch
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    
+ # push:
+  #  branches:
+   #   - main
 
 # these are Jobs inside the workflow
 jobs:
