@@ -1,5 +1,5 @@
 # Workflow name
-name: Hello Workflows
+name: Hello Dosto
 
 # Trigger the workflow on push to main branch
 on:
@@ -7,9 +7,9 @@ on:
     branches:
       - main
 
-# Jobs inside the workflow
+# these are Jobs inside the workflow
 jobs:
-  # Job name
+  # thisis the name of the Job 
   greet:
     runs-on: ubuntu-latest
 
