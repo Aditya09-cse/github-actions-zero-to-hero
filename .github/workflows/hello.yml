@@ -21,7 +21,7 @@ jobs:
         run: echo "Hello $USER"
 
   details:
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: show what is  the version of python, docker, etc
         run: docker --version && python --version
